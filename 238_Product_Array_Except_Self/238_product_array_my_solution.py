@@ -1,3 +1,9 @@
+# Runtime: 257ms
+# Beats: 91.40%
+
+# Memory: 26.26MB
+# Beats: 24.03%
+
 class Solution:
     def productExceptSelf(self, nums: list[int]) -> list[int]:
         prefix_product = []
@@ -21,7 +27,3 @@ class Solution:
 
 
         return output
-
-sol = Solution()
-nums = [1,2,3,4]
-print(sol.productExceptSelf(nums))
